@@ -17,6 +17,5 @@ clean:
 	make -C $(KDIR) M=$(PWD) clean
 
 rmall:
-	rmall '*.o' '*.ko' *.mod.c '.tes*' Mod* mod* .tmp_versions/*
-	rmdall .tmp_versions
+	rm -rf '*.o' '*.ko' *.mod.c '.tes*' Mod* mod* .tmp_versions/*
 
