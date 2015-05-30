@@ -5,6 +5,7 @@ obj-m += tester_4.o
 obj-m += tester_5.o
 obj-m += tester_6.o
 obj-m += tester_7.o
+obj-m += semaphore.o
 
 KVERSION := $(shell uname -r)
 KDIR := /lib/modules/$(KVERSION)/build
